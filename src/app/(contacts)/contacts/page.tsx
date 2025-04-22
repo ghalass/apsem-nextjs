@@ -4,7 +4,7 @@ import React from "react";
 
 type Props = {};
 
-export default function page({}: Props) {
+export default function AddContact({}: Props) {
   return (
     <div className="mt-2">
       <header className="flex between">

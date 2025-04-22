@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Provider from "@/components/provider";
 import React, { ReactNode } from "react";
 
 type Props = {
@@ -8,8 +9,10 @@ type Props = {
 export default function layout({ children }: Props) {
   return (
     <div className="page">
-      <Navbar />
-      {children}
+      <Provider>
+        <Navbar />
+        {children}
+      </Provider>
     </div>
   );
 }
