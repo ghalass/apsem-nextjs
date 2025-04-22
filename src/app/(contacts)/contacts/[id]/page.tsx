@@ -6,8 +6,8 @@ type Props = {};
 export default function page({}: Props) {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <Link href={"/add-contact"} className="btn-link">
+      <h1>Contact Page ID</h1>
+      <Link href={"/contacts"} className="btn-link">
         Contacts
       </Link>
     </div>
